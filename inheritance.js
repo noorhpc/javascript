@@ -21,4 +21,26 @@ const info = {
         return this.salary;
     }
 
-};
+}; 
+
+    //   ====again new example====
+
+
+    const department ={
+
+        roll: 'm01',
+        dept_name:'IT',
+        location:'karachi',
+
+
+        display2:function(){
+            console.log(`'roll':${this.roll},
+                department: ${this.dept_name},
+                location:${this.location},
+                `);
+        }
+
+
+
+
+    };
