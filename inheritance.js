@@ -1,9 +1,9 @@
-alert("hello");
-const info ={
+
+const info = {
     emp_id: 1001,
     name: 'ali',
     age: 25,
-    salary:1500
+    salary: 15000,
 
 
     display: function(){
@@ -14,7 +14,8 @@ const info ={
             Salary: ${this.salary}`
         );
 
-    }
+    },
+
     addsalary(amount){
         this.salary += amount;
         return this.salary;
