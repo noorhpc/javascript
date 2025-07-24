@@ -7,23 +7,19 @@
 </head>
 <body>
      <h1>Learning JavaScript 2501B2</h1>
-    <fieldset>
-        <legend>Login</legend>
-        
-    <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username">
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
-        <button type="submit" onclick="login()">Login Now</button>
-    </form>
-    </fieldset> 
+   
     
 
     <script>
-        let name = "taha";
-        alert("welcome" + "    " + name);
+        const student ={
+            name: 'ali',
+            age: 25,
+
+            information (){
+                console.log("my name is " +  this.name  +   "  i am " + this.age +  " years old");
+            }
+        }
+      
     </script>
 
 
