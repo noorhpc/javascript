@@ -6,22 +6,27 @@ const info = {
     salary: 15000,
 
 
-    display: function(){
-
-        console.log(`employ_id: ${this.emp_id},
-            Name: ${this.name},
-            Age: ${this.age},
-            Salary: ${this.salary}`
-        );
-
+    display(){
+        console.log(`'emp_id': ${this.emp_id},
+            name: ${this.name},
+            age: ${this.age},
+            salary: ${this.salary},
+            `);
     },
+
+    
 
     addsalary(amount){
         this.salary += amount;
         return this.salary;
+    },
+    addage(newage){
+        this.age += newage;
+        return this.age;
+
     }
 
-}; 
+};
 
     //   ====again new example====
 
@@ -33,7 +38,7 @@ const info = {
         location:'karachi',
 
 
-        display2:function(){
+        display2(){
             console.log(`'roll':${this.roll},
                 department: ${this.dept_name},
                 location:${this.location},
